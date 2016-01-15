@@ -1,0 +1,58 @@
+body {
+  font-family: system, -apple-system, sans-serif;
+  color: #A3A3A3;
+  margin: 0;
+}
+
+a {
+  color: #7C7C7C;
+}
+
+a:visited {
+  color: #626262;
+}
+
+.time {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.length {
+  flex-grow: 1;
+}
+
+.value {
+  font-size: 9em;
+  margin: .5em 0 0;
+}
+
+.long {
+  margin: 1em;
+}
+
+
+.time ul {
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+ justify-content: center;
+}
+
+.time ul li {
+  list-style-type: none;
+  margin: 0 1em;
+}
