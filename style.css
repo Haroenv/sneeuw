@@ -25,7 +25,7 @@ a:visited {
   -o-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  min-height: 100vh;
+  min-height: 95vh;
   max-width: 45rem;
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ a:visited {
 
 .value {
   font-size: 9em;
-  margin: .5em 0 0;
+  margin: 5vh 0 0;
 }
 
 .long {
