@@ -48,20 +48,8 @@ var timeDiff = Math.abs(now.getTime() - lastSnow.getTime());
 var diffDays = Math.floor(timeDiff / (1000 * 3600 * 24));
 value.innerHTML = diffDays;
 last.innerHTML = lastSnow.toLocaleDateString('nl-BE');
-var fburl = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fharoen.me%2Fsneeuw&t=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C';
-var twurl = 'https://twitter.com/intent/tweet?text=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C+via+https%3A%2F%2Fharoen.me%2Fsneeuw,+@Haroenv';
-facebook.href = fburl;
-twitter.href = twurl;
+facebook.href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fharoen.me%2Fsneeuw&t=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C';
+twitter.href = 'https://twitter.com/intent/tweet?text=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C+via+https%3A%2F%2Fharoen.me%2Fsneeuw,+@Haroenv';
 </script>
-<script>
-    /* google analytics */
-    window.ga = window.ga || function() {
-        (ga.q = ga.q||[]).push(arguments);
-    };
-    ga.l = +new Date;
-    ga("create", "UA-27277115-3", "auto");
-    ga("send", "pageview");
-</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 </html>
