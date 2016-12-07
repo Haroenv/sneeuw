@@ -48,7 +48,7 @@ var timeDiff = Math.abs(now.getTime() - lastSnow.getTime());
 var diffDays = Math.floor(timeDiff / (1000 * 3600 * 24));
 value.innerHTML = diffDays;
 last.innerHTML = lastSnow.toLocaleDateString('nl-BE');
-facebook.href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fharoen.me%2Fsneeuw&t=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C';
+facebook.href = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fharoen.me%2Fsneeuw&quote=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge';
 twitter.href = 'https://twitter.com/intent/tweet?text=Het+is+al+'+diffDays+'+dagen+geleden+dat+het+sneeuwde+in+Brugge+%7C+via+https%3A%2F%2Fharoen.me%2Fsneeuw,+@Haroenv';
 </script>
 </body>
